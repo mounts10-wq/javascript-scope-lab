@@ -10,7 +10,7 @@ function addBurger() {
 }
 
 // Step 3: Variable Declaration and Scope (BLOCK SCOPE)
-if (true) {
+if(true) {
   const anotherNewBurger = "Maple Bacon Burger";
   burgers.push(anotherNewBurger);
 }
